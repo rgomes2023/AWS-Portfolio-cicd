@@ -30,9 +30,9 @@
     --blur: 12px;
     
     /* Gradient Background */
-    --bg1: #191d2b; /* Dark background color */
-    --bg2: #590f92; /* Violet color for the gradient */
-    --bg3: #3b116e; /* Purple-pink for gradient */
+  --bg1: #0a0f2c;   /* Deep navy blue */
+  --bg2: #102a43;   /* Muted dark blue */
+  --bg3: #1b3b6f;   /* Rich royal blue */
   }
 
   
