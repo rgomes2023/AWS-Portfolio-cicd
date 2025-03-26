@@ -41,27 +41,27 @@
 
 .light-mode {
   /* Light Theme */
-  --color-primary: #FFFFFF;
-  --color-secondary: #c70cfa;
-  --color-white: #454e56;
+  --color-primary: #f0f9ff;           /* Soft sky background */
+  --color-secondary: #2563eb;         /* Vivid blue for accents/buttons */
+  --color-white: #1e293b;             /* Darker text on light background */
   --color-black: #000;
-  --color-grey0: #f8f8f8;
-  --color-grey-1: #6c7983;
-  --color-grey-2: #6c7983;
-  --color-grey-3: #6c7983;
-  --color-grey-4: #454e56;
-  --color-grey-5: #f8f8f8;
-  --color-grey-6: #12181b;
+  --color-grey0: #f0f9ff;             /* Matches background */
+  --color-grey-1: #64748b;
+  --color-grey-2: #475569;
+  --color-grey-3: #334155;
+  --color-grey-4: #cbd5e1;
+  --color-grey-5: #e2e8f0;
+  --color-grey-6: #f1f5f9;
 
   /* Glassmorphism */
-  --glass-bg: rgba(255, 200, 255, 0.15); /* Soft lilac-pinkish white */
-  --glass-border: rgba(255, 150, 255, 0.2);
+  --glass-bg: rgba(224, 242, 254, 0.55); /* Transparent light blue */
+  --glass-border: rgba(30, 64, 175, 0.2); /* Soft blue border */
   --blur: 10px;
 
   /* Light Theme Background */
-  --bg1: #f8e1ff;
-  --bg2: #d9c2ff;
-  --bg3: #ffe4f2;
+  --bg1: #e0f2fe;
+  --bg2: #bae6fd;
+  --bg3: #dbeafe;
 }
 
 body {
