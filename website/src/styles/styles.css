@@ -25,9 +25,10 @@
   
 
     /* Glassmorphism */
-    --glass-bg: rgba(150, 50, 150, 0.15); /* Transparent pinkish-purple */
-    --glass-border: rgba(255, 100, 255, 0.3); /* Light border for glass effect */
-    --blur: 12px;
+  --glass-bg: rgba(15, 23, 42, 0.5); /* Transparent navy */
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --blur: 12px;
+
     
     /* Gradient Background */
   --bg1: #0a0f2c;   /* Deep navy blue */
