@@ -1281,9 +1281,13 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
-  .light-mode #home {
-  background: linear-gradient(-45deg, var(--bg1), var(--bg2), var(--bg3), var(--bg1))!important;
-  background-size: 300% 300%;
+.light-mode .header,
+.light-mode #home {
+  background: var(--glass-bg) !important;
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(var(--blur));
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   background-size: 300% 300%;
   animation: gradientFlow 10s infinite alternate ease-in-out;
 }
